@@ -1,0 +1,9 @@
+{
+  "num_samples": 26,
+  "num_classes": 2,
+  "classes": [
+    "no",
+    "yes"
+  ],
+  "checkpoint": "checkpoints\\best_model.pth.tar"
+}

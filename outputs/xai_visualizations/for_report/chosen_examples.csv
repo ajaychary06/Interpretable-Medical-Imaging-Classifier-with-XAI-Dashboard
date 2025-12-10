@@ -1,0 +1,1 @@
+category,basename,true,pred,prob\nTP,Y85,yes,yes,0.9979\nTP,Y166,yes,yes,0.9973\nTP,Y91,yes,yes,0.9949\nTN,1 no,no,no,0.5663\nTN,49 no,no,no,0.5453\nFP,N6,no,yes,0.9512\nFP,27 no,no,yes,0.8275\nFP,no 96,no,yes,0.7934\n

@@ -1,0 +1,27 @@
+file,true,pred,prob_0_no,prob_1_yes
+C:\Users\ajayc\Documents\xai_brain_tumor\data\processed\test\no\1 no.jpeg,0,0,0.9416201710700989,0.05837984383106232
+C:\Users\ajayc\Documents\xai_brain_tumor\data\processed\test\no\2 no.jpeg,0,0,0.5230907201766968,0.47690925002098083
+C:\Users\ajayc\Documents\xai_brain_tumor\data\processed\test\no\27 no.jpg,0,1,0.4621500074863434,0.5378499627113342
+C:\Users\ajayc\Documents\xai_brain_tumor\data\processed\test\no\47 no.jpg,0,1,0.28784412145614624,0.7121558785438538
+C:\Users\ajayc\Documents\xai_brain_tumor\data\processed\test\no\49 no.jpg,0,0,0.8550236821174622,0.14497631788253784
+C:\Users\ajayc\Documents\xai_brain_tumor\data\processed\test\no\N6.jpg,0,1,9.65033468673937e-05,0.9999034404754639
+C:\Users\ajayc\Documents\xai_brain_tumor\data\processed\test\no\No19.jpg,0,0,0.9882199764251709,0.011780074797570705
+C:\Users\ajayc\Documents\xai_brain_tumor\data\processed\test\no\no 10.jpg,0,0,0.9991536140441895,0.000846410053782165
+C:\Users\ajayc\Documents\xai_brain_tumor\data\processed\test\no\no 96.jpg,0,1,0.009825151413679123,0.9901748895645142
+C:\Users\ajayc\Documents\xai_brain_tumor\data\processed\test\no\no 98.jpg,0,0,0.9963273406028748,0.003672637976706028
+C:\Users\ajayc\Documents\xai_brain_tumor\data\processed\test\yes\Y113.JPG,1,1,2.793439923820529e-10,1.0
+C:\Users\ajayc\Documents\xai_brain_tumor\data\processed\test\yes\Y117.JPG,1,1,0.38931703567504883,0.6106829047203064
+C:\Users\ajayc\Documents\xai_brain_tumor\data\processed\test\yes\Y154.jpg,1,1,0.003759163897484541,0.9962408542633057
+C:\Users\ajayc\Documents\xai_brain_tumor\data\processed\test\yes\Y156.JPG,1,1,0.11137254536151886,0.8886274695396423
+C:\Users\ajayc\Documents\xai_brain_tumor\data\processed\test\yes\Y166.JPG,1,1,0.0012233118759468198,0.9987767338752747
+C:\Users\ajayc\Documents\xai_brain_tumor\data\processed\test\yes\Y193.JPG,1,1,0.03315223008394241,0.9668477773666382
+C:\Users\ajayc\Documents\xai_brain_tumor\data\processed\test\yes\Y24.jpg,1,1,0.010684299282729626,0.9893157482147217
+C:\Users\ajayc\Documents\xai_brain_tumor\data\processed\test\yes\Y248.JPG,1,0,0.5514324903488159,0.44856756925582886
+C:\Users\ajayc\Documents\xai_brain_tumor\data\processed\test\yes\Y250.jpg,1,1,1.665742843215412e-06,0.9999983310699463
+C:\Users\ajayc\Documents\xai_brain_tumor\data\processed\test\yes\Y253.JPG,1,1,7.321960962883289e-13,1.0
+C:\Users\ajayc\Documents\xai_brain_tumor\data\processed\test\yes\Y30.jpg,1,1,0.00012060627341270447,0.9998793601989746
+C:\Users\ajayc\Documents\xai_brain_tumor\data\processed\test\yes\Y56.jpg,1,1,0.08075690269470215,0.9192430973052979
+C:\Users\ajayc\Documents\xai_brain_tumor\data\processed\test\yes\Y79.jpg,1,1,0.003759163897484541,0.9962408542633057
+C:\Users\ajayc\Documents\xai_brain_tumor\data\processed\test\yes\Y85.JPG,1,1,5.603933004749706e-06,0.9999943971633911
+C:\Users\ajayc\Documents\xai_brain_tumor\data\processed\test\yes\Y91.jpg,1,1,0.0003423006273806095,0.9996577501296997
+C:\Users\ajayc\Documents\xai_brain_tumor\data\processed\test\yes\Y98.JPG,1,1,0.0006412556394934654,0.9993587136268616

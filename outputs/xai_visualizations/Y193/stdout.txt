@@ -1,0 +1,11 @@
+Using checkpoint['model_state_dict']
+Sample keys from state_dict: ['conv1.weight', 'bn1.weight', 'bn1.bias', 'bn1.running_mean', 'bn1.running_var', 'bn1.num_batches_tracked', 'layer1.0.conv1.weight', 'layer1.0.bn1.weight', 'layer1.0.bn1.bias', 'layer1.0.bn1.running_mean', 'layer1.0.bn1.running_var', 'layer1.0.bn1.num_batches_tracked']
+Post-strip sample keys: ['conv1.weight', 'bn1.weight', 'bn1.bias', 'bn1.running_mean', 'bn1.running_var', 'bn1.num_batches_tracked', 'layer1.0.conv1.weight', 'layer1.0.bn1.weight', 'layer1.0.bn1.bias', 'layer1.0.bn1.running_mean', 'layer1.0.bn1.running_var', 'layer1.0.bn1.num_batches_tracked']
+Inferred conv1 in_channels=3, kernel=(7, 7)
+Inferred fc in_features=512
+Trying to build resnet18 with in_channels=3 num_classes=2
+Loaded checkpoint into resnet18 successfully.
+Shapes -> campp (raw HxW): (7, 7)  campp (upsampled HxW): (351, 262)  ig (HxW): (351, 262)
+Shapes -> campp (raw HxW): (7, 7)  campp (upsampled HxW): (351, 262)  ig (HxW): (351, 262)
+Saved smoke images: xai_smoke_campp.jpg, xai_smoke_ig.jpg, xai_smoke_fused.jpg
+Predicted index: 1, label: yes, probability: 0.8854

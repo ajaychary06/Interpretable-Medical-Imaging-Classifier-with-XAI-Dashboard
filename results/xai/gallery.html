@@ -1,0 +1,18 @@
+python - <<'PY'
+from pathlib import Path, PurePosixPath
+d = Path("results/xai")
+imgs = sorted([p for p in d.glob("*_combined.png")])
+if not imgs:
+    print("No combined images found in", d.resolve())
+else:
+    html = "<!doctype html><html><head><meta charset='utf-8'><title>XAI Gallery</title></head><body><h1>XAI Gallery</h1>"
+    for p in imgs:
+        # convert to file URL (Windows)
+        file_url = "file:///" + str(p.resolve()).replace("\\","/")
+        html += f'<div style="margin:10px"><h4>{p.name}</h4><img src="{file_url}" style="width:800px;max-width:95%"/></div>\n'
+    html += "</body></html>"
+    out = d/"gallery_abs.html"
+    out.write_text(html, encoding="utf-8")
+    print("Wrote", out.resolve())
+PY
+explorer "C:\Users\ajayc\Documents\xai_brain_tumor\results\xai\gallery_abs.html"

@@ -1,0 +1,3 @@
+file: data\processed\test\no\27 no.jpg
+ pred: 0
+ probs: [0.9840293526649475, 0.015970712527632713]

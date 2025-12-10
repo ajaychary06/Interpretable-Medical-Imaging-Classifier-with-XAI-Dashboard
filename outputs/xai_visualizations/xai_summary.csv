@@ -1,0 +1,28 @@
+basename,true_label,pred_idx,pred_label,pred_prob,stdout_path
+1 no,no,0,no,0.5663,C:\Users\ajayc\Documents\xai_brain_tumor\outputs\xai_visualizations\1 no\stdout.txt
+2 no,no,1,yes,0.5224,C:\Users\ajayc\Documents\xai_brain_tumor\outputs\xai_visualizations\2 no\stdout.txt
+27 no,no,1,yes,0.8275,C:\Users\ajayc\Documents\xai_brain_tumor\outputs\xai_visualizations\27 no\stdout.txt
+47 no,no,1,yes,0.5268,C:\Users\ajayc\Documents\xai_brain_tumor\outputs\xai_visualizations\47 no\stdout.txt
+49 no,no,0,no,0.5453,C:\Users\ajayc\Documents\xai_brain_tumor\outputs\xai_visualizations\49 no\stdout.txt
+for_report,,,,,C:\Users\ajayc\Documents\xai_brain_tumor\outputs\xai_visualizations\for_report\stdout.txt
+N6,no,1,yes,0.9512,C:\Users\ajayc\Documents\xai_brain_tumor\outputs\xai_visualizations\N6\stdout.txt
+no 10,no,1,yes,0.5269,C:\Users\ajayc\Documents\xai_brain_tumor\outputs\xai_visualizations\no 10\stdout.txt
+no 96,no,1,yes,0.7934,C:\Users\ajayc\Documents\xai_brain_tumor\outputs\xai_visualizations\no 96\stdout.txt
+no 98,no,1,yes,0.5994,C:\Users\ajayc\Documents\xai_brain_tumor\outputs\xai_visualizations\no 98\stdout.txt
+No19,no,1,yes,0.6637,C:\Users\ajayc\Documents\xai_brain_tumor\outputs\xai_visualizations\No19\stdout.txt
+Y113,yes,1,yes,0.9928,C:\Users\ajayc\Documents\xai_brain_tumor\outputs\xai_visualizations\Y113\stdout.txt
+Y117,yes,1,yes,0.9789,C:\Users\ajayc\Documents\xai_brain_tumor\outputs\xai_visualizations\Y117\stdout.txt
+Y154,yes,1,yes,0.9731,C:\Users\ajayc\Documents\xai_brain_tumor\outputs\xai_visualizations\Y154\stdout.txt
+Y156,yes,1,yes,0.9527,C:\Users\ajayc\Documents\xai_brain_tumor\outputs\xai_visualizations\Y156\stdout.txt
+Y166,yes,1,yes,0.9973,C:\Users\ajayc\Documents\xai_brain_tumor\outputs\xai_visualizations\Y166\stdout.txt
+Y193,yes,1,yes,0.8854,C:\Users\ajayc\Documents\xai_brain_tumor\outputs\xai_visualizations\Y193\stdout.txt
+Y24,yes,1,yes,0.7175,C:\Users\ajayc\Documents\xai_brain_tumor\outputs\xai_visualizations\Y24\stdout.txt
+Y248,yes,1,yes,0.8762,C:\Users\ajayc\Documents\xai_brain_tumor\outputs\xai_visualizations\Y248\stdout.txt
+Y250,yes,1,yes,0.9649,C:\Users\ajayc\Documents\xai_brain_tumor\outputs\xai_visualizations\Y250\stdout.txt
+Y253,yes,1,yes,0.9295,C:\Users\ajayc\Documents\xai_brain_tumor\outputs\xai_visualizations\Y253\stdout.txt
+Y30,yes,1,yes,0.9004,C:\Users\ajayc\Documents\xai_brain_tumor\outputs\xai_visualizations\Y30\stdout.txt
+Y56,yes,1,yes,0.9633,C:\Users\ajayc\Documents\xai_brain_tumor\outputs\xai_visualizations\Y56\stdout.txt
+Y79,yes,1,yes,0.9731,C:\Users\ajayc\Documents\xai_brain_tumor\outputs\xai_visualizations\Y79\stdout.txt
+Y85,yes,1,yes,0.9979,C:\Users\ajayc\Documents\xai_brain_tumor\outputs\xai_visualizations\Y85\stdout.txt
+Y91,yes,1,yes,0.9949,C:\Users\ajayc\Documents\xai_brain_tumor\outputs\xai_visualizations\Y91\stdout.txt
+Y98,yes,1,yes,0.8928,C:\Users\ajayc\Documents\xai_brain_tumor\outputs\xai_visualizations\Y98\stdout.txt

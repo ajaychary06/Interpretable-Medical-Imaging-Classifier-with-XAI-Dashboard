@@ -1,0 +1,3 @@
+file: data\processed\test\yes\Y154.jpg
+ pred: 1
+ probs: [0.003967019263654947, 0.9960330128669739]
