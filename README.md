@@ -1,7 +1,7 @@
 # Interpretable-Medical-Imaging-Classifier-with-XAI-Dashboard
 
 ### Project: XAI Brain Tumor Detection
-### Author: Ajaychary Kandukuri
+### Author: Ajaychary Kandukuri & Swetha Yanamandhalla
 ### Repo: xai_brain_tumor
 
 ## Short description:
