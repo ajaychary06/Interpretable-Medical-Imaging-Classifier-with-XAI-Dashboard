@@ -36,10 +36,11 @@ pip install -r requirements.txt
 # If you prefer conda (if environment.yml exists):
 # conda env create -f environment.yml
 # conda activate xai_proj
-
+```
 
 ## Project layout (recommended)
 
+```
 xai_brain_tumor/
 ├─ data/
 │  ├─ train/
@@ -61,7 +62,7 @@ xai_brain_tumor/
 │  └─ Final_Report.ipynb
 ├─ requirements.txt
 └─ README.md
-
+```
 
 ## Common commands
 ### Prepare data
