@@ -140,7 +140,7 @@ Example fields:
 
 ## Training tips & reproducibility
 
-- Set deterministic seeds in train_eval_xai.py (seed value configurable).
+- Set deterministic seeds in `train_eval_xai.py` (seed value configurable).
 
 - Use mixed precision if available (AMP) to speed training.
 
