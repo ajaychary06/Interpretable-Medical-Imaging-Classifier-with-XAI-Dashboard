@@ -188,8 +188,6 @@ torch.cuda.is_available()
 
 ## License
 
-Specify your license here. Example:
-
 MIT License
 
 ## Credits & References
