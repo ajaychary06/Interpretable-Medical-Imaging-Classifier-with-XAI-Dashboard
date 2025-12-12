@@ -36,3 +36,34 @@ pip install -r requirements.txt
 # If you prefer conda (if environment.yml exists):
 # conda env create -f environment.yml
 # conda activate xai_proj
+
+
+## Project layout (recommended)
+
+xai_brain_tumor/
+├─ data/
+│  ├─ train/
+│  ├─ val/
+│  └─ test/
+├─ models/
+│  └─ checkpoints/
+├─ outputs/
+│  └─ streamlit_xai/
+├─ scripts/
+│  ├─ train_eval_xai.py       # training + evaluation orchestration
+│  ├─ inference.py            # single-image & batch inference
+│  ├─ xai_methods.py          # Grad-CAM, Grad-CAM++, saliency utilities
+│  ├─ utils.py                # helper functions (transforms, metrics)
+│  └─ export_visuals.py       # save visual overlays for reports
+├─ app/
+│  └─ streamlit_app.py        # interactive demo
+├─ notebooks/
+│  └─ Final_Report.ipynb
+├─ requirements.txt
+└─ README.md
+
+
+## Common commands
+### Prepare data
+
+(Place MRI image folders under data/train, data/val, data/test with subfolders per class)
