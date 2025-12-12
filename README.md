@@ -1,11 +1,8 @@
 # Interpretable-Medical-Imaging-Classifier-with-XAI-Dashboard
-
-# README.md
-# Explainable AI — Brain Tumor Classification & XAI Visualizations
 #
-# Project: XAI Brain Tumor Detection
-# Author: Ajaychary Kandukuri
-# Repo: xai_brain_tumor
+### Project: XAI Brain Tumor Detection
+### Author: Ajaychary Kandukuri
+### Repo: xai_brain_tumor
 #
 # Short description:
 # End-to-end pipeline that trains deep learning models to classify brain tumors from MRI scans
