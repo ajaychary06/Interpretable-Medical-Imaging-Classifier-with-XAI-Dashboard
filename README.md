@@ -198,5 +198,6 @@ MIT License
 
 ## Author / Contact
 
-Ajaychary Kandukuri
-Email: ajaycharykandukuri06@gmail.com
+`Ajaychary Kandukuri`
+
+Email: `ajaycharykandukuri06@gmail.com`
