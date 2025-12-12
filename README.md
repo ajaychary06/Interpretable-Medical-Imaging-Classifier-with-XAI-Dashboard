@@ -68,3 +68,74 @@ xai_brain_tumor/
 ### Prepare data
 
 (Place MRI image folders under data/train, data/val, data/test with subfolders per class)
+
+
+```
+# Example: view dataset sizes
+python - <<'PY'
+from pathlib import Path
+p = Path('data')
+for split in ['train','val','test']:
+    s = p / split
+    print(split, sum(1 for _ in s.rglob('*.png')), "images")
+PY
+```
+
+## Train a model
+
+```
+# Train with default config
+python scripts/train_eval_xai.py --config configs/train_resnet.yaml
+
+# Or run with CLI args (example)
+python scripts/train_eval_xai.py \
+  --epochs 30 \
+  --batch-size 16 \
+  --lr 1e-4 \
+  --data-root ./data \
+  --save-dir ./models/checkpoints
+
+```
+
+## Evaluate / run inference on a checkpoint
+
+```
+# Single-image inference (prints predicted class + probability)
+python scripts/inference.py --checkpoint models/checkpoints/best.pth --image tests/sample1.png
+
+# Batch inference producing CSV results + XAI overlays
+python scripts/inference.py --checkpoint models/checkpoints/best.pth --input-dir ./data/test --output-dir ./outputs/streamlit_xai --xai-method gradcampp
+
+```
+
+## Generate XAI visualizations (standalone)
+
+```
+python scripts/export_visuals.py --checkpoint models/checkpoints/best.pth --input-dir data/test --out visuals/
+```
+
+## Run Streamlit demo (interactive)
+
+```
+# From repository root
+streamlit run app/streamlit_app.py --server.port 8501
+# Then open browser: http://localhost:8501
+```
+
+## Configuration
+
+- Use configs/*.yaml (or .json) to manage model hyperparameters, transforms, and dataset paths.
+
+- Example fields:
+
+- model: resnet50
+
+- input_size: 224
+
+- batch_size: 16
+
+- optimizer: adam
+
+- lr: 1e-4
+
+- augmentations: True / False
