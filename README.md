@@ -139,3 +139,69 @@ Example fields:
 - lr: 1e-4
 
 - augmentations: True / False
+
+
+## Training tips & reproducibility
+
+- Set deterministic seeds in train_eval_xai.py (seed value configurable).
+
+- Use mixed precision if available (AMP) to speed training.
+
+- Monitor logs with TensorBoard (tensorboard --logdir runs/).
+
+- Save best checkpoints by validation metric (e.g., F1 or AUC).
+
+## Evaluation & metrics
+
+- Scripts compute: Accuracy, Precision, Recall, F1-score, Confusion Matrix, AUC (if applicable).
+
+- Visual artifacts saved per-sample: original, model heatmap overlay, guided backprop overlay.
+
+- Example: outputs/streamlit_xai contains per-image JSON metadata + PNG overlays ready for reports.
+
+## Troubleshooting
+
+### Grad-CAM or Grad-CAM++ errors:
+- Verify matching versions of `torch` and `torchvision`.
+- If third-party XAI lib signature changed (e.g., `use_cuda` removed), update calls in `xai_methods.py`.
+
+### "conda not recognized":
+- Ensure Anaconda is installed and added to PATH, or use the Anaconda/Miniconda prompt.
+
+### CUDA / GPU:
+```python
+import torch
+torch.cuda.is_available()
+```
+- If False, install correct CUDA toolkit or use CPU mode.
+
+## Notebooks & Final Report
+
+- notebooks/Final_Report.ipynb contains EDA, training curves, selected results, and methodology notes.
+
+- Use exported overlays (Grad-CAM / Grad-CAM++ outputs) in the notebook when creating figures for the final report.
+
+## Contributing
+
+- Create an issue for bugs or feature requests.
+
+- For code updates: fork → create feature branch → submit PR with a clear description.
+
+- Keep changes modular (data pipeline, model code, XAI utilities should remain separate).
+
+## License
+
+Specify your license here. Example:
+
+MIT License
+
+## Credits & References
+
+- Built with PyTorch, torchvision, Streamlit, and custom XAI utilities.
+
+- Inspired by best practices in medical imaging, explainable AI, and deep learning engineering.
+
+Author / Contact
+
+Ajaychary Kandukuri
+Email: ajaycharykandukuri06@gmail.com
