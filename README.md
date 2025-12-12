@@ -124,9 +124,9 @@ streamlit run app/streamlit_app.py --server.port 8501
 
 ## Configuration
 
-- Use configs/*.yaml (or .json) to manage model hyperparameters, transforms, and dataset paths.
+Use configs/*.yaml (or .json) to manage model hyperparameters, transforms, and dataset paths.
 
-- Example fields:
+Example fields:
 
 - model: resnet50
 
