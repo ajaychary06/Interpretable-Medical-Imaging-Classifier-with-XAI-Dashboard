@@ -196,7 +196,7 @@ MIT License
 
 - Inspired by best practices in medical imaging, explainable AI, and deep learning engineering.
 
-Author / Contact
+## Author / Contact
 
 Ajaychary Kandukuri
 Email: ajaycharykandukuri06@gmail.com
