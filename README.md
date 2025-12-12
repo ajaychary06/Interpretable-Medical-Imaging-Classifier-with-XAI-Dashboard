@@ -5,10 +5,7 @@
 ### Repo: xai_brain_tumor
 
 ## Short description:
-#### End-to-end pipeline that trains deep learning models to classify brain tumors from MRI scans
-#### and provides explainable AI outputs (Grad-CAM / Grad-CAM++ / saliency + visual overlays) so
-#### clinicians and stakeholders can understand model decisions. Includes training, evaluation,
-#### inference, and a Streamlit demo for interactive visualization.
+#### End-to-end pipeline that trains deep learning models to classify brain tumors from MRI scans and provides explainable AI outputs (Grad-CAM / Grad-CAM++ / saliency + visual overlays) so clinicians and stakeholders can understand model decisions. Includes training, evaluation, inference, and a Streamlit demo for interactive visualization.
 
 ---
 ## Key features
