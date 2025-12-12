@@ -128,14 +128,14 @@ streamlit run app/streamlit_app.py --server.port 8501
 
 - Example fields:
 
--- model: resnet50
+- model: resnet50
 
--- input_size: 224
+- input_size: 224
 
--- batch_size: 16
+- batch_size: 16
 
--- optimizer: adam
+- optimizer: adam
 
--- lr: 1e-4
+- lr: 1e-4
 
--- augmentations: True / False
+- augmentations: True / False
