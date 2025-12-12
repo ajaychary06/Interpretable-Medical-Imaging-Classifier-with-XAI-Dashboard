@@ -121,7 +121,7 @@ streamlit run app/streamlit_app.py --server.port 8501
 
 ## Configuration
 
-Use configs/*.yaml (or .json) to manage model hyperparameters, transforms, and dataset paths.
+Use `configs/*.yaml (or .json)` to manage model hyperparameters, transforms, and dataset paths.
 
 Example fields:
 
@@ -144,7 +144,7 @@ Example fields:
 
 - Use mixed precision if available (AMP) to speed training.
 
-- Monitor logs with TensorBoard (tensorboard --logdir runs/).
+- Monitor logs with TensorBoard `(tensorboard --logdir runs/)`.
 
 - Save best checkpoints by validation metric (e.g., F1 or AUC).
 
@@ -154,7 +154,7 @@ Example fields:
 
 - Visual artifacts saved per-sample: original, model heatmap overlay, guided backprop overlay.
 
-- Example: outputs/streamlit_xai contains per-image JSON metadata + PNG overlays ready for reports.
+- Example: `outputs/streamlit_xai` contains per-image JSON metadata + PNG overlays ready for reports.
 
 ## Troubleshooting
 
@@ -170,11 +170,11 @@ Example fields:
 import torch
 torch.cuda.is_available()
 ```
-- If False, install correct CUDA toolkit or use CPU mode.
+- If `False`, install correct CUDA toolkit or use CPU mode.
 
 ## Notebooks & Final Report
 
-- notebooks/Final_Report.ipynb contains EDA, training curves, selected results, and methodology notes.
+- `notebooks/Final_Report.ipynb` contains EDA, training curves, selected results, and methodology notes.
 
 - Use exported overlays (Grad-CAM / Grad-CAM++ outputs) in the notebook when creating figures for the final report.
 
